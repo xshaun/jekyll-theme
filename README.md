@@ -12,7 +12,7 @@ Jekyll-theme is only a studying freely and does not contain any commercial activ
 
 ALL Files   
 |---assets/themes/jekyll-theme   
-|---_include/themes/jekyll-theme 
+|---_include/themes/jekyll-theme   
 |---_layout   
 |---_post/core-samples   
 |---404.html  
@@ -24,11 +24,11 @@ I'm SunXiaoyang who is a coder, China.
 
 ## How to use it?
 
-Build a development environment(on Ubuntu14.04)   
+####Build a development environment(on Ubuntu14.04)   
 1. sudo apt-get install ruby1.9.1-dev   
 2. gem install jekyll   
 
-Browse jekyll-theme   
+####Browse jekyll-theme   
 1. download jekyll-bootstrap.     
 2. copy jekyll-theme into jekyll-bootstrap folder.    
 3. ~$ cd jekyll-bootstrap    
