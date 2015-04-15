@@ -1,0 +1,57 @@
+  <div class="unit four-fifths post">
+        
+  <article>
+  <h2>
+    <a href="{{ page.url }}">
+     {{ page.title }}
+    </a>
+  </h2>
+ 
+  {% if page.categories %}
+  <span class="post-category">
+    <span class="label">
+        {{ page.categories }}
+    </span>
+  </span>
+  {% endif %}
+  
+
+  <div class="post-meta">
+    {% if page.date %}
+    <span class="post-date">
+     {{ page.date | date: "%b %-d, %Y" }}
+    </span>
+    {% endif %}
+     {% if page.author %}
+    <a class="post-author">
+     <img src="https://github.com/{{ page.author }}.png" class="avatar" alt="{{ page.author }} avatar" width="24" height="24" onerror="this.src='{{ ASSET_PATH }}/img/octojekyll.png'">{{ page.author }}
+    </a>
+    {% endif %}
+  </div>
+
+  <div class="post-content">
+	{{ content }}
+  </div>
+
+
+
+   <div class="section-nav">
+      <div class="left align-right">
+              {% if page.previous %}
+               <a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}" class="prev">Back</a>
+               {% else %}
+                <span class="prev disabled">Back</span>
+               {% endif %}
+          </div>
+      <div class="right align-left">
+              {% if page.next %}
+                <a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}" class="next">Next</a>
+                 {% else %}
+                <span class="next disabled">Next</span>
+               {% endif %}
+          </div>
+    </div>
+
+</article>
+
+</div>
