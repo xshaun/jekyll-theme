@@ -3,7 +3,7 @@
 Theme Name: jekyll-theme   
 Description: a theme for [jekyll](http://jekyllrb.com/). Theming is done on [Jekyll-Bootstrap](http://jekyllbootstrap.com/).  
 Author: sunxiaoyang @ https://github.com/sunxiaoyang     
-Demo URL: [sunxiaoyang.github.io/jekyll-theme/](sunxiaoyang.github.io/jekyll-theme/)   
+Demo URL: [sunxiaoyang.github.io/jekyll-theme/](http://sunxiaoyang.github.io/jekyll-theme/)   
 
 ## About jekyll-theme
 
