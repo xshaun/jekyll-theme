@@ -7,7 +7,7 @@ Demo URL: [sunxiaoyang.github.io/jekyll-theme/](http://sunxiaoyang.github.io/jek
 
 ## About jekyll-theme
 
-Jekyll-theme is a copy form jekyll home page for the sytle of Jekyll home page is pretty good.
+Jekyll-theme is a copy from jekyll home page for the sytle of Jekyll home page is pretty good.
 Jekyll-theme is only a studying freely and does not contain any commercial activity.  
 
 ALL Files   

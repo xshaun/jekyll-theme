@@ -7,7 +7,7 @@ author : sunxiaoyang
 ---
 {% include JB/setup %}
 
-This Jekyll-theme introduction is a display of a few cue for making full use of Jekyll-theme. The following is form source code of Jekyll home page. Welcome aboard for more information.
+This Jekyll-theme introduction is a display of a few cue for making full use of Jekyll-theme. The following is from source code of Jekyll home page. Welcome aboard for more information.
 
 ## NOTE 
 
