@@ -11,10 +11,10 @@ highlighter: pygments
 title : jekyll-theme
 tagline: Site Tagline
 author :  
-  name : Sun Xiaoyang
-  email : xshaun@outlook.com
-  github : xshaun
-  twitter : twitter
+  name : xshaun
+  email : email@email.com
+  github : username
+  twitter : username
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -25,7 +25,10 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
+
 production_url : http://xshaun.github.io/jekyll-theme
+
+gems: ["jekyll-sitemap"]
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -54,6 +57,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
+
   BASE_PATH : http://xshaun.github.io/jekyll-theme
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
@@ -92,15 +96,22 @@ JB :
       num_posts: 5
       width: 580
       colorscheme: light
+    duoshuo :
+      short_name : jekyllbootstrap
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google 
+    provider : google
+    gauges :
+        site_id : 'SITE ID'
     google : 
         tracking_id : 'UA-123-12'
+    googleUA : 
+        tracking_id : 'UA-123-12'
+        property_name : 'auto'
     getclicky :
       site_id : 
     mixpanel :
