@@ -3,7 +3,7 @@ layout: post
 category : lessons
 tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, jekyll-theme]
-author : sunxiaoyang
+author : xshaun
 ---
 {% include JB/setup %}
 
@@ -44,7 +44,7 @@ This Jekyll-theme introduction is a display of a few cue for making full use of 
 
 ## LINK  
 
-This website is created with [SunXiaoyang](https://github.com/sunxiaoyang).
+This website is created with [SXY](https://github.com/xshaun).
 
 ## STRESS  
 ` word `      
